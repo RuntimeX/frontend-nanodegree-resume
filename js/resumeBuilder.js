@@ -1,6 +1,8 @@
 
 
-var awesomeThoughts = "I am Hitler, and I am awesome!";
-var funThoughts = awesomeThoughts.replace("awesome", "fun");
-console.log(awesomeThoughts);
-$("#main").append(funThoughts);
+
+$var formatedName = HTMLheaderName.replace("%data%" ,"Roman Sill");
+$var formatedRole = HTMLheaderRole.replace("%data%", "Web Designer");
+
+$("#header").append(formatedName);
+$("#header").append(formatedRole);
